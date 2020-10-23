@@ -5,34 +5,30 @@
  */
 package view;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
+
+
 /**
- * FXML Controller class
  *
  * @author 2dam
  */
-public class SignUpController implements Initializable {
-
-    /**
-     * Initializes the controller class.
-     */
-     @FXML
+public class SignUpController {
+    @FXML
         private TextField txtUsername;
     @FXML
         private TextField txtEmail;
     @FXML
         private TextField txtNombre;
+    
     @FXML
         private PasswordField txtContrasena;
     @FXML
+    
         private Button btnRegistrar;
     @FXML
         private Button btnCancelar;
@@ -44,9 +40,4 @@ public class SignUpController implements Initializable {
         private Label lblNombre;
     @FXML
         private Label lblContrasena;
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
-    
 }
